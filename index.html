@@ -26,25 +26,254 @@
   </head>
   <body>
     <header>
-      <div class="sony bg-black">Sony</div>
-      <nav>nav</nav>
+      <div class="sony bg-black d-flex justify-content-end p-2 position-sticky">
+        <a class="logo-sony" href="#"
+          ><img class="" src="./img/sony_logo.svg" alt="sony logo"
+        /></a>
+      </div>
+
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-light p-4">
+          <span><i class="fa-light fa-gamepad-modern"></i></span>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section id="hero" class="container-fluid">hero</section>
-
-      <section id="carousel" class="container-fluid">carousel</section>
-
-      <section id="hero2" class="container-fluid">hero2</section>
-
-      <section id="nuove-uscite" class="container-fluid mybg-black">
-        nuove uscite
+      <section id="hero-1" class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-5 text-white">
+            <img
+              class="logo-hero-1"
+              src="./img/returnal-hero-banner-logo.png"
+              alt="hero"
+            />
+            <h2 class="py-4 px-3">Rompi il cerchio</h2>
+            <p class="pb-2 px-3">
+              Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
+              rinascita in questo esplosivo thriller fantascentifico,
+              disponibile in esclusiva su PS5
+            </p>
+          </div>
+        </div>
       </section>
 
-      <section id="prodotti" class="container-fluid">prodotti</section>
+      <section id="carousel" class="container-fluid">
+        <div class="row gy-2 pt-4 pb-5">
+          <div class="col-6 col-sm-4 col-xs-2">
+            <div class="card carousel-games rounded-4">
+              <img
+                class="rounded-4"
+                src="./img/returnal-listing-thumb-01-ps5.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-xs-2">
+            <div class="card carousel-games rounded-4">
+              <img
+                class="rounded-4"
+                src="./img/ratchet-and-clank-rift-apart-keyart.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-xs-2">
+            <div class="card carousel-games rounded-4">
+              <img
+                class="rounded-4"
+                src="./img/returnal-listing-thumb-01-ps5.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-xs-2">
+            <div class="card carousel-games rounded-4">
+              <img
+                class="rounded-4"
+                src="./img/ratchet-and-clank-rift-apart-keyart.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-xs-2">
+            <div class="card carousel-games rounded-4">
+              <img
+                class="rounded-4"
+                src="./img/returnal-listing-thumb-01-ps5.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-xs-2">
+            <div class="card carousel-games rounded-4">
+              <img
+                class="rounded-4"
+                src="./img/ratchet-and-clank-rift-apart-keyart.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="no-limits">
+        <div class="container-fluid">
+          <div class="text-center">
+            <a class="text-uppercase text-decoration-none" href="#"
+              >play as no limits</a
+            >
+          </div>
+          <h2 class="text-center">Ecco la playStation 5</h2>
+          <p class="text-center">
+            Tuffati in nuove possibilitá di gioco completamente inaspettate
+          </p>
+
+          <h3 class="">Console playstation 5</h3>
+          <p class="">
+            Tuffati in nuove possibilitá di gioco completamente inaspettate
+          </p>
+
+          <div>
+            <div>
+              <img class="w-100" src="./img/playstation-5-thumb.png" alt="" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+              <img
+                class="img-fluid"
+                src="./img/playstation-5-thumb.png"
+                alt=""
+              />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid" src="./img/joypad-thumb.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid" src="./img/headset-thumb.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid" src="./img/remote-thumb.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img class="img-fluid" src="./img/camera-thumb.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hero2" class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-5 text-white px-4">
+            <img class="logo-hero-2" src="./img/it-takes-two-logo.png" alt="" />
+            <h2 class="py-4 px-3 co-op">
+              Un'avventura cooperativa selvaggia ti attende
+            </h2>
+            <p class="pb-2 px-3 it-takes-two-p">
+              Trova un amico e partite insieme per l'avventura piú folle delle
+              vostre vite in It Takes Two, un gioco d'avventura cooperativa a
+              piattaforma che stravolge il suo genere.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="nuove-uscite" class="container-fluid mybg-black">
+        <h4 class="text-white">Nuove Uscite</h4>
+        <span class="text-white"
+          >Giochi incredibili per <span class="text-uppercase">ps4</span> e
+          <span class="text-uppercase">ps5</span> disponibili ora
+        </span>
+
+        <div class="row p-4">
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <span class="text-white">Tony Hawk's &trade; pro skater &trade; 1 &#43; 2</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <span class="text-white">Crash Bandicoot 4: it's About Time</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <span class="text-white">Tony Hawk's &trade; pro skater &trade; 1 &#43; 2</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <span class="text-white">Crash Bandicoot 4: it's About Time</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <span class="text-white">Tony Hawk's &trade; pro skater &trade; 1 &#43; 2</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <span class="text-white">Crash Bandicoot 4: it's About Time</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <span class="text-white">Tony Hawk's &trade; pro skater &trade; 1 &#43; 2</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <span class="text-white">Crash Bandicoot 4: it's About Time</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <span class="text-white">Tony Hawk's &trade; pro skater &trade; 1 &#43; 2</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <span class="text-white">Crash Bandicoot 4: it's About Time</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <span class="text-white">Tony Hawk's &trade; pro skater &trade; 1 &#43; 2</span>
+          </div>
+
+          <div class="col-6 pb-3 card mybg-black border-0">
+            <img class="img-fluid rounded-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <span class="text-white">Crash Bandicoot 4: it's About Time</span>
+          </div>
+        </div>
+      </section>
 
       <section id="esplora" class="container-fluid mybg-light-grey">
-        esplora
+        <h3> Esplora Playstation <span id="reg-small">&#174;</span> 4</h3>
       </section>
 
       <section id="sconti" class="container-fluid">sconti</section>
