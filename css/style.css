@@ -8,11 +8,10 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.debug{
+.debug {
   border: 1px solid black;
   min-height: 50px;
 }
@@ -37,44 +36,62 @@ body {
 }
 
 /*   HEADER    */
-.logo-sony{
-    width: 10%;
-
+.logo-sony {
+  width: 10%;
 }
 
 /* MAIN  */
-#hero-1{
+#hero-1 {
   background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position: center;
   padding-top: 350px;
   padding-bottom: 50px;
 }
-#hero2{
+#hero2 {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
   background-size: cover;
   background-position: center;
   padding-bottom: 50px;
 }
-.logo-hero-1{
+.logo-hero-1 {
   width: 60%;
 }
-.logo-hero-2{
+.logo-hero-2 {
   width: 40%;
   padding-top: 80px;
 }
 
-.co-op{
+.co-op {
   width: 50%;
   font-size: 35px;
 }
 
-.it-takes-two-p{
+.it-takes-two-p {
   width: 60%;
   font-size: 18px;
-  
 }
 
-.playstation-svg{
- filter: invert();
+@media screen and (min-width: 1200px) {
+  .footer-bottom {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ps-now-width {
+    width: 40%;
+    padding-left: 2rem;
+  }
+
+  .ps-now-img {
+    width: 40%;
+    padding-right: 3rem;
+  }
+  .card-sony{
+    width: calc((100% / 5) - 1rem); 
+  }
+  .ps5-h3{
+    font-size: 43px
+  }
 }
