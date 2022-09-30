@@ -27,13 +27,25 @@
   <body>
     <header>
       <div class="sony bg-black d-flex justify-content-end p-2 position-sticky">
-        <a class="logo-sony" href="#"
-          ><img class="" src="./img/sony_logo.svg" alt="sony logo"
+        <a class="logo-sony" href="#"><img src="./img/sony_logo.svg" alt="sony logo"
         /></a>
       </div>
 
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
+          <div>
+            <img src="./img/play_logo.svg" alt="">
+          </div>
+          <div class="collapse navbar-collapse ps-lg-4 pt-lg-3" id="navbarToggleExternalContent">
+            <ul class="list-unstyled me-lg-5 ">
+              <li class="d-inline p-lg-2"><a class="text-decoration-none mycolorbl" href="#">Giochi</a><a href=""><i class="fa-solid fa-chevron-down mycolorbl"></i></a></i></li>
+              <li class="d-inline p-lg-2"><a class="text-decoration-none mycolorbl" href="#">Hardware</a><a href=""><i class="fa-solid fa-chevron-down mycolorbl"></i></a></li>
+              <li class="d-inline p-lg-2"><a class="text-decoration-none mycolorbl" href="#">Servizi</a><a href=""><i class="fa-solid fa-chevron-down mycolorbl"></i></a></li>
+              <li class="d-inline p-lg-2"><a class="text-decoration-none mycolorbl" href="#">Novitá</a><a href=""><i class="fa-solid fa-chevron-down mycolorbl"></i></a></li>
+              <li class="d-inline p-lg-2"><a class="text-decoration-none mycolorbl" href="#">Fai Acquisti</a><a href=""><i class="fa-solid fa-chevron-down mycolorbl"></i></a></li>
+              <li class="d-inline p-lg-2"><a class="text-decoration-none mycolorbl" href="#">Supporto</a><a href=""><i class="fa-solid fa-chevron-down mycolorbl"></i></a></li>
+            </ul>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
@@ -46,13 +58,19 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
+        
+          <ul class="list-unstyled me-lg-5 d-none d-lg-block">
+            <li class="pt-lg-3">
+              <a class="mycolorbl text-decoration-none" href="#">MyPlayStation</a>
+             
+            </li>
+          </ul>
+          <button class="btn button-login d-lg-inline d-none d-lg-block">
+            Accedi
+          </button>
+      
       </nav>
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-light p-4">
-          <span><i class="fa-light fa-gamepad-modern"></i></span>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>
-      </div>
+      
     </header>
 
     <main>
