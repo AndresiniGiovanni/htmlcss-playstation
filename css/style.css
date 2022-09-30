@@ -5,17 +5,19 @@
   --dark-blue: rgba(22, 28, 59, 1);
   --red: rgba(205, 61, 15, 1);
   --lavish-white: rgba(217, 218, 220, 1);
+  
 }
 
 body {
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .debug {
   border: 1px solid black;
   min-height: 50px;
 }
-.mycolorbl{
+.mycolorbl {
   color: var(--black);
 }
 .sony {
@@ -32,21 +34,23 @@ body {
 .mybg-dark-blue {
   background-color: var(--dark-blue);
 }
-
+.mybg-night-blue{
+  background-color: #00439c;
+}
 .mybg-blue {
   background-color: var(--blue);
 }
-.button-red{
+.button-red {
   background-color: var(--red);
   color: var(--lavish-white);
   border-radius: 20px;
 }
-.button-blue{
+.button-blue {
   background-color: var(--blue);
   color: var(--lavish-white);
   border-radius: 20px;
 }
-.button-lightgrey{
+.button-lightgrey {
   background-color: #d9dadc;
   border-radius: 20px;
   color: var(--blue);
@@ -54,20 +58,20 @@ body {
   margin-bottom: 3rem;
 }
 
-.button-white{
+.button-white {
   background-color: var(--lavish-white);
   border-radius: 20px;
   color: black;
   margin-bottom: 20px;
 }
 
-.button-login{
+.button-login {
   background-color: #363636;
   color: var(--lavish-white);
   margin-right: 20px;
 }
-.short{
-  width:35%;
+.short {
+  width: 35%;
 }
 
 /*   HEADER    */
@@ -106,13 +110,19 @@ body {
   width: 60%;
   font-size: 18px;
 }
-
+.card-translate:hover {
+  transition: 1s;
+  transform: translate(0, -20px);
+}
+/* FOOTER    */
 
 @media screen and (min-width: 1200px) {
   .footer-bottom {
     width: 50%;
   }
-  
+  .playstation-svg {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -125,18 +135,18 @@ body {
     width: 40%;
     padding-right: 3rem;
   }
-  .card-sony{
-    width: calc((100% / 5) - 1rem); 
+  .card-sony {
+    width: calc((100% / 5) - 1rem);
   }
-  .ps5-h3{
-    font-size: 43px
+  .ps5-h3 {
+    font-size: 43px;
   }
 
-  .ps-plus-img{
-    max-width: 30% ;
+  .ps-plus-img {
+    max-width: 30%;
     padding-right: 5rem;
   }
-  .sx-plus{
+  .sx-plus {
     width: 40%;
     padding-left: 2rem;
   }
